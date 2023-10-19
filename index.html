@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    
+</head>
+
+<body>
+    
+    <!-- ****** Chamando o evento através do clique ******-->
+    <button onclick="ola()">Diga olá para nosso instrutor</button>
+    <br><br>
+    <form>
+        
+
+        <label for="nome">Nome:</label> <br>
+        <input id="nome" type="text" name="nome" class="campos">
+        <br>
+        <label for="email">E-mail:</label> <br>
+        <input id="email" type="email" name="email" >
+        <br>
+        <label for="assunto">Assunto:</label> <br>
+        <textarea id="assunto" name="assunto" cols="60" rows="5"></textarea>
+        <br>
+        <!-- ****** Chamando o evento através do clique ******-->
+        <button onclick="verificarCampos()">Enviar</button>
+    </form>
+
+    
+<script src="./assets/script/script.js"></script>
+</body>
+
+</html>
